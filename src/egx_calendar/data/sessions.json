@@ -1,0 +1,27 @@
+{
+  "description": "EGX session times, sourced from the official EGX trading session document.",
+  "main_market": {
+    "normal": {
+      "discovery_session": ["09:30", "10:00"],
+      "continuous_trading": ["10:00", "14:15"],
+      "closing_auction": ["14:15", "14:25"],
+      "trading_at_close_price": ["14:25", "14:30"]
+    },
+    "ramadan": {
+      "discovery_session": ["09:30", "10:00"],
+      "continuous_trading": ["10:00", "13:15"],
+      "closing_auction": ["13:15", "13:25"],
+      "closing_auction_note": "Auction runs 13:15-13:25; actual close randomized between 13:23-13:25.",
+      "trading_at_close_price": ["13:25", "13:30"]
+    }
+  },
+  "other_markets": {
+    "sme_market_tamayuz": {"normal": ["10:00", "14:30"]},
+    "treasury_bills_fixed_income_bonds": {"normal": ["10:00", "14:30"]},
+    "block_trades": {"normal": ["09:15", "09:45"], "note": "Large-volume transactions, early morning window."},
+    "otc_orders_market": {"days": ["Monday", "Wednesday"], "normal": ["11:30", "12:00"], "note": "Unlisted securities, Mon/Wed only."},
+    "otc_deals_market": {"normal": ["09:30", "13:30"], "note": "Unlisted securities, daily."},
+    "unlisted_central_depository": {"normal": ["10:00", "11:30"], "note": "Unlisted securities, daily."},
+    "omnibus_account_adjustments": {"normal": ["14:30", "15:00"], "note": "Order adjustments right after market close."}
+  }
+}

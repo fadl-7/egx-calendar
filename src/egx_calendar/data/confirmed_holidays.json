@@ -1,0 +1,169 @@
+{
+  "description": "Manually maintained, officially-confirmed EGX holidays. ALWAYS take precedence over generator estimates. Any agent (Claude, hy3, human) can add entries via `egx-update confirm`.",
+  "years_covered": [
+    2026
+  ],
+  "holidays": [
+    {
+      "date": "2026-01-01",
+      "name": "New Year's Day (Bank Holiday)",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-01-07",
+      "name": "Coptic Christmas",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-01-25",
+      "name": "25 January Revolution / Police Day",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-03-19",
+      "name": "Eid El Fitr",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-03-20",
+      "name": "Eid El Fitr",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-03-21",
+      "name": "Eid El Fitr",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-03-22",
+      "name": "Eid El Fitr",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-03-23",
+      "name": "Eid El Fitr",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-04-12",
+      "name": "Easter & Sham El Nessim",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-04-13",
+      "name": "Easter & Sham El Nessim",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-04-25",
+      "name": "Sinai Liberation Day",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-05-01",
+      "name": "Labour Day",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-05-26",
+      "name": "Eid El Adha",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-05-27",
+      "name": "Eid El Adha",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-05-28",
+      "name": "Eid El Adha",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-05-29",
+      "name": "Eid El Adha",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-05-30",
+      "name": "Eid El Adha",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-05-31",
+      "name": "Eid El Adha",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-06-17",
+      "name": "Islamic New Year (Hegira 1448)",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-06-30",
+      "name": "30 June Revolution",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-07-23",
+      "name": "23 July Revolution",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-08-26",
+      "name": "Mawlid al-Nabi (Prophet's Birthday)",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    },
+    {
+      "date": "2026-10-06",
+      "name": "Armed Forces Day",
+      "status": "confirmed",
+      "note": "",
+      "source": "EGX official 2026 trading calendar (user-provided document)"
+    }
+  ]
+}
