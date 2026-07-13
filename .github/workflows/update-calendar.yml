@@ -1,0 +1,95 @@
+name: Update EGX Calendar Data
+on:
+  schedule:
+    - cron: '0 3 1 * *'
+  workflow_dispatch:
+    inputs:
+      year: {description: 'Target year (default: current)', required: false, default: ''}
+
+permissions:
+  contents: write
+
+jobs:
+  # Always runs, no API key needed -- pure deterministic regen.
+  regenerate:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.check.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -e ".[dev]"
+      - run: python scripts/generate_holidays.py --years 5
+      - run: pytest -v
+      - id: check
+        run: |
+          git diff --quiet src/egx_calendar/data/holidays.json \
+            && echo "changed=false" >> "$GITHUB_OUTPUT" \
+            || echo "changed=true" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with: {name: regenerated-data, path: src/egx_calendar/data/holidays.json, retention-days: 1}
+
+  # OPTIONAL: only runs meaningfully if ANTHROPIC_API_KEY is set as a repo
+  # secret. Skips cleanly (not a failure) if it's absent -- this is ONE way
+  # to auto-discover confirmed dates. If you already have your own agent
+  # or pipeline for this, you don't need this job at all: just have it call
+  # `egx-update confirm --file entries.json` directly, on whatever schedule
+  # your own infrastructure runs, and skip/delete this job.
+  ai_scrape_optional:
+    runs-on: ubuntu-latest
+    outputs:
+      new_dates: ${{ steps.ai.outputs.new_dates }}
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -e ".[dev,anthropic]"
+      - id: ai
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "ANTHROPIC_API_KEY not set -- skipping optional Claude discovery job"
+            echo "new_dates=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          TARGET_YEAR="${{ github.event.inputs.year }}"
+          [ -z "$TARGET_YEAR" ] && TARGET_YEAR=$(date +%Y)
+          python scripts/ai_update.py --year "$TARGET_YEAR"
+          STATUS=$?
+          if [ $STATUS -eq 2 ]; then echo "new_dates=yes" >> "$GITHUB_OUTPUT"; else echo "new_dates=0" >> "$GITHUB_OUTPUT"; fi
+          exit 0
+      - uses: actions/upload-artifact@v4
+        with: {name: confirmed-data, path: src/egx_calendar/data/confirmed_holidays.json, retention-days: 1}
+        continue-on-error: true
+
+  commit:
+    runs-on: ubuntu-latest
+    needs: [regenerate, ai_scrape_optional]
+    if: needs.regenerate.outputs.changed == 'true' || needs.ai_scrape_optional.outputs.new_dates == 'yes'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: {name: regenerated-data, path: src/egx_calendar/data/}
+      - uses: actions/download-artifact@v4
+        if: needs.ai_scrape_optional.outputs.new_dates == 'yes'
+        with: {name: confirmed-data, path: src/egx_calendar/data/}
+        continue-on-error: true
+      - name: Re-run generator if confirmed data changed
+        if: needs.ai_scrape_optional.outputs.new_dates == 'yes'
+        run: |
+          pip install -e "."
+          python scripts/generate_holidays.py --years 5
+      - run: |
+          pip install -e ".[dev]"
+          pytest -v
+      - run: |
+          git config user.name "egx-calendar-bot"
+          git config user.email "actions@github.com"
+          git add src/egx_calendar/data/holidays.json src/egx_calendar/data/confirmed_holidays.json
+          MSG="chore: auto-update EGX calendar"
+          [ "${{ needs.ai_scrape_optional.outputs.new_dates }}" = "yes" ] && MSG="$MSG + Claude confirmed new dates"
+          git diff --staged --quiet || git commit -m "$MSG [skip ci]"
+          git push
