@@ -1,7 +1,7 @@
 {
   "generated_range": [
-    2024,
-    2028
+    2026,
+    2030
   ],
   "confirmed_years": [
     2026
@@ -12,314 +12,6 @@
     "estimated": "Derived from Hijri/lunar calendar conversion. Provisional."
   },
   "holidays": [
-    {
-      "date": "2024-01-01",
-      "name": "New Year's Day (Bank Holiday)",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2024-01-07",
-      "name": "Coptic Christmas",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2024-01-25",
-      "name": "25 January Revolution / Police Day",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2024-04-09",
-      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2024-04-10",
-      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2024-04-11",
-      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2024-04-12",
-      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2024-04-13",
-      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2024-04-25",
-      "name": "Sinai Liberation Day",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2024-05-01",
-      "name": "Labour Day",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2024-05-06",
-      "name": "Sham El Nessim",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2024-06-15",
-      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2024-06-16",
-      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2024-06-17",
-      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2024-06-18",
-      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2024-06-19",
-      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2024-06-20",
-      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2024-06-30",
-      "name": "30 June Revolution",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2024-07-07",
-      "name": "Islamic New Year",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2024-07-23",
-      "name": "23 July Revolution",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2024-09-15",
-      "name": "Mawlid al-Nabi (Prophet's Birthday)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2024-10-06",
-      "name": "Armed Forces Day",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2025-01-01",
-      "name": "New Year's Day (Bank Holiday)",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2025-01-07",
-      "name": "Coptic Christmas",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2025-01-25",
-      "name": "25 January Revolution / Police Day",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2025-03-29",
-      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2025-03-30",
-      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2025-03-31",
-      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2025-04-01",
-      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2025-04-02",
-      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2025-04-21",
-      "name": "Sham El Nessim",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2025-04-25",
-      "name": "Sinai Liberation Day",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2025-05-01",
-      "name": "Labour Day",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2025-06-05",
-      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2025-06-06",
-      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2025-06-07",
-      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2025-06-08",
-      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2025-06-09",
-      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2025-06-10",
-      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2025-06-26",
-      "name": "Islamic New Year",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2025-06-30",
-      "name": "30 June Revolution",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2025-07-23",
-      "name": "23 July Revolution",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
-    {
-      "date": "2025-09-04",
-      "name": "Mawlid al-Nabi (Prophet's Birthday)",
-      "status": "estimated",
-      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
-      "source": ""
-    },
-    {
-      "date": "2025-10-06",
-      "name": "Armed Forces Day",
-      "status": "computed",
-      "note": "",
-      "source": ""
-    },
     {
       "date": "2026-01-01",
       "name": "New Year's Day (Bank Holiday)",
@@ -784,6 +476,307 @@
     },
     {
       "date": "2028-10-06",
+      "name": "Armed Forces Day",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2029-01-01",
+      "name": "New Year's Day (Bank Holiday)",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2029-01-07",
+      "name": "Coptic Christmas",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2029-01-25",
+      "name": "25 January Revolution / Police Day",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2029-02-13",
+      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2029-02-14",
+      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2029-02-15",
+      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2029-02-16",
+      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2029-02-17",
+      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2029-04-09",
+      "name": "Sham El Nessim",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2029-04-23",
+      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2029-04-24",
+      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2029-04-25",
+      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2029-04-26",
+      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2029-04-27",
+      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2029-04-28",
+      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2029-05-01",
+      "name": "Labour Day",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2029-05-14",
+      "name": "Islamic New Year",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2029-06-30",
+      "name": "30 June Revolution",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2029-07-23",
+      "name": "23 July Revolution",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2029-07-24",
+      "name": "Mawlid al-Nabi (Prophet's Birthday)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2029-10-06",
+      "name": "Armed Forces Day",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2030-01-01",
+      "name": "New Year's Day (Bank Holiday)",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2030-01-07",
+      "name": "Coptic Christmas",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2030-01-25",
+      "name": "25 January Revolution / Police Day",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2030-02-03",
+      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2030-02-04",
+      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2030-02-05",
+      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2030-02-06",
+      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2030-02-07",
+      "name": "Eid al-Fitr (window day, anchor 10/1 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2030-04-12",
+      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2030-04-13",
+      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2030-04-14",
+      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2030-04-15",
+      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2030-04-16",
+      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2030-04-17",
+      "name": "Eid al-Adha (window day, anchor 12/10 AH)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2030-04-25",
+      "name": "Sinai Liberation Day",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2030-04-29",
+      "name": "Sham El Nessim",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2030-05-01",
+      "name": "Labour Day",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2030-05-03",
+      "name": "Islamic New Year",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2030-06-30",
+      "name": "30 June Revolution",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2030-07-13",
+      "name": "Mawlid al-Nabi (Prophet's Birthday)",
+      "status": "estimated",
+      "note": "Umm al-Qura estimate -- confirm against official EGX circular once announced",
+      "source": ""
+    },
+    {
+      "date": "2030-07-23",
+      "name": "23 July Revolution",
+      "status": "computed",
+      "note": "",
+      "source": ""
+    },
+    {
+      "date": "2030-10-06",
       "name": "Armed Forces Day",
       "status": "computed",
       "note": "",
